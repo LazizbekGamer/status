@@ -1,0 +1,34 @@
+body {
+    margin-top: 80px
+}
+
+.minecraft {
+    background-color: #000;
+    color: #AAA;
+    display: inline-block;
+    font-family: monospace;
+    letter-spacing: .1em;
+    padding: .5em;
+    white-space: pre-wrap
+}
+
+.minecraft img {
+    max-height: 1.5em
+}
+
+table {
+    overflow: hidden
+}
+
+tr td:first-child {
+    font-weight: 700;
+    width: 15%
+}
+
+.table>:not(:first-child) {
+    border-top: inherit
+}
+
+#players img {
+    margin: 0 .2em .2em 0
+}
